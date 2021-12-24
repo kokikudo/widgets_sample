@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             // getString(ResID, 代入する文字列)で呼び出す
             result.text = getString(R.string.greet, inputNameText.text)
 
-            // 警告が出る書き方　→　result.text = "こんにちは、${inputNameText.text}さん"
+            // 警告が出る書き方→　result.text = "こんにちは、${inputNameText.text}さん"
         }
     }
 
