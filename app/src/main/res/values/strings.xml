@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">widgets_sample</string>
+    <string name="greet">こんにちは、%1$sさん！</string>
+</resources>
+
+<!-- プレースホルダー文字列greetに定型文を設定
+%1$sは１番目に渡った値、という意味
+-->

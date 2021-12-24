@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ ボタンを押した時の画像をそれぞれ指定
+ drawableファイルを左クリックし、New→New Resource Fileで画像専用のリソースを作成
+ selector内にボタンの画像をitemとして設定
+ state_~属性をtrueにすることでボタンの状態に対する画像を指定
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn3" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn2" android:state_focused="true"/>
+    <item android:drawable="@drawable/btn1"/>
+</selector>
